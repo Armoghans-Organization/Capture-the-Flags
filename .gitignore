@@ -24,6 +24,7 @@ __pycache__/
 
 # Ignore sensitive files (if any, remove this section if not needed)
 .env
+*.zip
 
 # Ignore IDE or editor-specific files
 .vscode/
