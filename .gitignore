@@ -1,0 +1,32 @@
+# Ignore system files (Windows and Linux)
+Thumbs.db
+Desktop.ini
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*.bak
+*.lock
+
+# Ignore Python-related files (if any scripts are used)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore compiled binaries
+*.out
+*.class
+*.o
+*.exe
+
+# Ignore sensitive files (if any, remove this section if not needed)
+.env
+
+# Ignore IDE or editor-specific files
+.vscode/
+
+# Ignore node_modules (if Node.js tools are used for web CTFs)
+node_modules/
